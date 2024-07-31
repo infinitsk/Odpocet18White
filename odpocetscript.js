@@ -1,6 +1,6 @@
 setInterval(() => {
     var today = new Date();
-    const blyat = new Date("Aug 15,2024 17:00:00").getTime();
+    const blyat = new Date("Aug 15,2024 00:00:00").getTime();
     Timeleft = blyat - today
     var day = Math.floor(Timeleft / (1000 * 60 * 60 * 24));
     var hour = Math.floor((Timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
