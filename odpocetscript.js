@@ -15,19 +15,20 @@ setInterval(() => {
     var zvyšokMesiace = Math.floor(zvyšokRoky % 30);
     //ez clap dni
     // asi nič ignor plz var zvyšokDni = Math.floor(zvyšokMesiace % 7)
-    if (zvyšokMesiace != 1) {
-        výsledek = `18 budeš mať o ${roky} rok(y) ${mesiace} mesiac(e) a ${zvyšokMesiace} dní,  ${hour}hodín ${minute} minút a ${sekundy} sekúnd -t.j. ${day}dní`
-    }
-    //elify opraviť nemám na to nervy REEEEEEEEEEEEE
-    else if (zvyšokMesiace = 2) {
-        výsledek = `18 budeš mať o ${roky} rok(y) ${mesiace} mesiac(e) a 2 dni,  ${hour}hodín ${minute} minút a ${sekundy} sekúnd -t.j. ${day}dní`
-    } else if (zvyšokMesiace = 3) {
-        výsledek = `18 budeš mať o ${roky} rok(y) ${mesiace} mesiac(e) a ${zvyšokMesiace} dniBLYAT,  ${hour}hodín ${minute} minút a ${sekundy} sekúnd -t.j. ${day}dní`
-    }
-    //TO HERE
-    else {
-        výsledek = `18 budeš mať o ${roky} rok(y) ${mesiace} mesiac(e) a ${zvyšokMesiace} deň,  ${hour}hodín ${minute} minút a ${sekundy} sekúnd -t.j. ${day}dní`
-    }
+    /* if (zvyšokMesiace != 1) {
+         výsledek = `18 budeš mať o ${roky} rok(y) ${mesiace} mesiac(e) a ${day} dní,  ${hour}hodín ${minute} minút a ${sekundy} sekúnd -t.j. ${day}dní`
+     }
+     //elify opraviť nemám na to nervy REEEEEEEEEEEEE
+     else if (zvyšokMesiace = 2) {
+         výsledek = `18 budeš mať o ${roky} rok(y) ${mesiace} mesiac(e) a 2 dni,  ${hour}hodín ${minute} minút a ${sekundy} sekúnd -t.j. ${day}dní`
+     } else if (zvyšokMesiace = 3) {
+         výsledek = `18 budeš mať o ${roky} rok(y) ${mesiace} mesiac(e) a ${zvyšokMesiace} dniBLYAT,  ${hour}hodín ${minute} minút a ${sekundy} sekúnd -t.j. ${day}dní`
+     }
+     //TO HERE
+     else {
+     }*/
+    výsledek = `18 budeš mať o ${roky} rok(y) ${mesiace} mesiac(e) a ${day} deň,  ${hour}hodín ${minute} minút a ${sekundy} sekúnd -t.j. ${day}dní`
+
     //test= ""
     document.getElementById("chuj").textContent = výsledek
         // document.getElementById("blyat").textContent = test
